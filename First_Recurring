@@ -1,0 +1,9 @@
+Def first_recurring(given_str)
+Count={}
+For char in given_str
+     If char in count
+        Return char
+     Else
+        Count(char)={}
+
+Return char
